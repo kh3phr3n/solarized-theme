@@ -21,31 +21,32 @@ endif
 
 let s:colors = {}
 
-let s:colors.red        = ['', ]
-let s:colors.aqua       = ['', ]
-let s:colors.blue       = ['', ]
-let s:colors.green      = ['', ]
-let s:colors.orange     = ['', ]
-let s:colors.yellow     = ['', ]
-let s:colors.purple     = ['', ]
+let s:colors.red        = ['dc322f', 166]
+let s:colors.aqua       = ['2aa198',  36]
+let s:colors.blue       = ['268bd2',  32]
+let s:colors.green      = ['859900', 100]
+let s:colors.orange     = ['cb4b16', 166]
+let s:colors.yellow     = ['b58900', 136]
+let s:colors.purple     = ['6c71c4',  62]
+let s:colors.magenta    = ['d33682', 168]
 
-let s:colors.addbg      = ['', ]
-let s:colors.addfg      = ['', ]
-let s:colors.changebg   = ['', ]
-let s:colors.changefg   = ['', ]
+" let s:colors.addbg      = ['', ]
+" let s:colors.addfg      = ['', ]
+" let s:colors.changebg   = ['', ]
+" let s:colors.changefg   = ['', ]
 
-let s:colors.darkred    = ['', ]
-let s:colors.darkblue   = ['', ]
-let s:colors.darkcyan   = ['', ]
-let s:colors.darkpurple = ['', ]
-let s:colors.darkcolumn = ['', ]
+" let s:colors.darkred    = ['', ]
+" let s:colors.darkblue   = ['', ]
+" let s:colors.darkcyan   = ['', ]
+" let s:colors.darkpurple = ['', ]
+" let s:colors.darkcolumn = ['', ]
 
 let s:colors.line       = ['', ]
 let s:colors.window     = ['', ]
-let s:colors.comment    = ['', ]
-let s:colors.selection  = ['', ]
-let s:colors.background = ['', ]
-let s:colors.foreground = ['', ]
+let s:colors.comment    = ['93a1a1', 247]
+let s:colors.selection  = ['eee8d5', 254]
+let s:colors.background = ['fdf6e3', 230]
+let s:colors.foreground = ['657b83',  66]
 
 " Highlighting Function
 " ---------------------
