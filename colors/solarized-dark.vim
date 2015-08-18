@@ -30,23 +30,12 @@ let s:colors.yellow     = ['b58900', 136]
 let s:colors.purple     = ['6c71c4',  62]
 let s:colors.magenta    = ['d33682', 168]
 
-" let s:colors.addbg      = ['', ]
-" let s:colors.addfg      = ['', ]
-" let s:colors.changebg   = ['', ]
-" let s:colors.changefg   = ['', ]
-
-" let s:colors.darkred    = ['', ]
-" let s:colors.darkblue   = ['', ]
-" let s:colors.darkcyan   = ['', ]
-" let s:colors.darkpurple = ['', ]
-" let s:colors.darkcolumn = ['', ]
-
 let s:colors.line       = ['073642', 235]
 let s:colors.window     = ['', ]
-let s:colors.comment    = ['586e75', 242] " Base01
-let s:colors.selection  = ['073642', 235] " Base02
-let s:colors.background = ['002b36', 234] " Base03
-let s:colors.foreground = ['839496', 246] " Base0
+let s:colors.comment    = ['586e75', 242]
+let s:colors.selection  = ['073642', 235]
+let s:colors.background = ['002b36', 234]
+let s:colors.foreground = ['839496', 246]
 
 " Highlighting Function
 " ---------------------
@@ -95,10 +84,10 @@ call s:Hl('Todo'      , 'magenta'   , 'background', 'none')
 " Optionals: PmenuSbar, PmenuThumb
 " Optionals: Conceal, Cursor, CursorIM
 
-call s:Hl('Title'       , 'orange'    , ''          , 'none')
+call s:Hl('Title'       , 'aqua'      , ''          , 'none')
 call s:Hl('ColorColumn' , 'foreground', 'line'      , 'none')
 call s:Hl('CursorColumn', 'foreground', 'line'      , 'none')
-call s:Hl('CursorLine'  , 'purple'    , 'background', 'none')
+call s:Hl('CursorLine'  , 'green'     , 'background', 'none')
 call s:Hl('Directory'   , 'blue'      , 'background', 'none')
 call s:Hl('DiffAdd'     , 'green'     , 'selection' , 'none')
 call s:Hl('DiffChange'  , 'yellow'    , 'selection' , 'none')
@@ -111,21 +100,21 @@ call s:Hl('FoldColumn'  , 'comment'   , 'background', 'none')
 call s:Hl('SignColumn'  , 'comment'   , 'background', 'none')
 call s:Hl('IncSearch'   , 'background', 'orange'    , 'none')
 call s:Hl('LineNr'      , 'comment'   , 'background', 'none')
-call s:Hl('CursorLineNr', '', '', 'none')
+call s:Hl('CursorLineNr', 'yellow'    , 'background', 'none')
 call s:Hl('MatchParen'  , 'red'       , 'comment'   , 'none')
 call s:Hl('ModeMsg'     , 'blue'      , 'background', 'none')
 call s:Hl('MoreMsg'     , 'blue'      , 'background', 'none')
-call s:Hl('NonText'     , 'foreground', 'background', 'none')
+call s:Hl('NonText'     , 'comment'   , 'background', 'none')
 call s:Hl('Normal'      , 'foreground', 'background', 'none')
 call s:Hl('Pmenu'       , 'foreground', 'selection' , 'none')
 call s:Hl('PmenuSel'    , 'comment'   , 'selection' , 'none')
 call s:Hl('Question'    , 'aqua'      , 'background', 'none')
 call s:Hl('Search'      , 'background', 'yellow'    , 'none')
 call s:Hl('SpecialKey'  , 'foreground', 'selection' , 'none')
-call s:Hl('SpellBad'    , '', '', 'none')
-call s:Hl('SpellCap'    , '', '', 'none')
-call s:Hl('SpellLocal'  , '', '', 'none')
-call s:Hl('SpellRare'   , '', '', 'none')
+call s:Hl('SpellBad'    , 'red'       , 'selection' , 'none')
+call s:Hl('SpellCap'    , 'purple'    , 'selection' , 'none')
+call s:Hl('SpellLocal'  , 'yellow'    , 'selection' , 'none')
+call s:Hl('SpellRare'   , 'aqua'      , 'selection' , 'none')
 call s:Hl('StatusLine'  , 'foreground', 'line'      , 'none')
 call s:Hl('StatusLineNC', 'comment'   , 'line'      , 'none')
 call s:Hl('TabLine'     , 'comment'   , 'line'      , 'none')
