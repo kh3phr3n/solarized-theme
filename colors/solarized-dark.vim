@@ -31,7 +31,7 @@ let s:colors.purple     = ['6c71c4',  62]
 let s:colors.magenta    = ['d33682', 168]
 
 let s:colors.line       = ['073642', 235]
-let s:colors.window     = ['', ]
+let s:colors.window     = ['586e75', 242]
 let s:colors.comment    = ['586e75', 242]
 let s:colors.selection  = ['073642', 235]
 let s:colors.background = ['002b36', 234]
@@ -101,7 +101,7 @@ call s:Hl('SignColumn'  , 'comment'   , 'background', 'none')
 call s:Hl('IncSearch'   , 'background', 'orange'    , 'none')
 call s:Hl('LineNr'      , 'comment'   , 'background', 'none')
 call s:Hl('CursorLineNr', 'yellow'    , 'background', 'none')
-call s:Hl('MatchParen'  , 'red'       , 'comment'   , 'none')
+call s:Hl('MatchParen'  , 'red'       , 'selection' , 'none')
 call s:Hl('ModeMsg'     , 'blue'      , 'background', 'none')
 call s:Hl('MoreMsg'     , 'blue'      , 'background', 'none')
 call s:Hl('NonText'     , 'comment'   , 'background', 'none')
