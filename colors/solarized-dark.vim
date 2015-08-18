@@ -43,10 +43,10 @@ let s:colors.magenta    = ['d33682', 168]
 
 let s:colors.line       = ['', ]
 let s:colors.window     = ['', ]
-let s:colors.comment    = ['586e75', 242]
-let s:colors.selection  = ['073642', 235]
-let s:colors.background = ['002b36', 234]
-let s:colors.foreground = ['839496', 246]
+let s:colors.comment    = ['586e75', 242] " Base01
+let s:colors.selection  = ['073642', 235] " Base02
+let s:colors.background = ['002b36', 234] " Base03
+let s:colors.foreground = ['839496', 246] " Base0
 
 " Highlighting Function
 " ---------------------
@@ -72,21 +72,21 @@ endfunction
 " Statement: Conditional, Repeat, Label, Keyword, Exception
 " Special: SpecialChar, Tag, Delimiter, SpecialComment, Debug
 
-call s:Hl('Comment'   , '', 'background', 'none')
-call s:Hl('Constant'  , '', 'background', 'none')
-call s:Hl('String'    , '', 'background', 'none')
-call s:Hl('Identifier', '', 'background', 'none')
-call s:Hl('Function'  , '', 'background', 'none')
-call s:Hl('Statement' , '', 'background', 'none')
-call s:Hl('Operator'  , '', 'background', 'none')
-call s:Hl('PreProc'   , '', 'background', 'none')
-call s:Hl('Type'      , '', 'background', 'none')
-call s:Hl('Structure' , '', 'background', 'none')
-call s:Hl('Special'   , '', 'background', 'none')
-call s:Hl('Underlined', '', 'background', 'none')
-call s:Hl('Ignore'    , '', 'background', 'none')
-call s:Hl('Error'     , '', 'background', 'none')
-call s:Hl('Todo'      , '', 'background', 'none')
+call s:Hl('Comment'   , 'comment'   , 'background', 'none')
+call s:Hl('Constant'  , 'aqua'      , 'background', 'none')
+call s:Hl('String'    , ''          , 'background', 'none')
+call s:Hl('Identifier', 'blue'      , 'background', 'none')
+call s:Hl('Function'  , ''          , 'background', 'none')
+call s:Hl('Statement' , 'green'     , 'background', 'none')
+call s:Hl('Operator'  , ''          , 'background', 'none')
+call s:Hl('PreProc'   , 'orange'    , 'background', 'none')
+call s:Hl('Type'      , 'yellow'    , 'background', 'none')
+call s:Hl('Structure' , ''          , 'background', 'none')
+call s:Hl('Special'   , 'red'       , 'background', 'none')
+call s:Hl('Underlined', 'purple'    , 'background', 'none')
+call s:Hl('Ignore'    , 'foreground', 'background', 'none')
+call s:Hl('Error'     , 'red'       , 'background', 'none')
+call s:Hl('Todo'      , 'magenta'   , 'background', 'none')
 
 " Vim Highlighting: (see :help highlight-groups)
 " ----------------------------------------------
@@ -115,8 +115,8 @@ call s:Hl('CursorLineNr', '', '', 'none')
 call s:Hl('MatchParen'  , '', '', 'none')
 call s:Hl('ModeMsg'     , '', '', 'none')
 call s:Hl('MoreMsg'     , '', '', 'none')
-call s:Hl('NonText'     , '', '', 'none')
-call s:Hl('Normal'      , '', '', 'none')
+call s:Hl('NonText'     , 'foreground', 'background', 'none')
+call s:Hl('Normal'      , 'foreground', 'background', 'none')
 call s:Hl('Pmenu'       , '', '', 'none')
 call s:Hl('PmenuSel'    , '', '', 'none')
 call s:Hl('Question'    , '', '', 'none')
