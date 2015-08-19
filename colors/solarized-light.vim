@@ -31,8 +31,8 @@ let s:colors.purple     = ['6c71c4',  62]
 let s:colors.magenta    = ['d33682', 168]
 
 let s:colors.line       = ['eee8d5', 254] " base2
-let s:colors.window     = ['586e75', 242] " base01
 let s:colors.comment    = ['93a1a1', 247] " base1
+let s:colors.emphasis   = ['586e75', 242] " base01
 let s:colors.selection  = ['eee8d5', 254] " base2
 let s:colors.background = ['fdf6e3', 230] " base3
 let s:colors.foreground = ['657b83',  66] " base00
@@ -62,9 +62,9 @@ endfunction
 " Special: SpecialChar, Tag, Delimiter, SpecialComment, Debug
 
 call s:Hl('Comment'   , 'comment'   , 'background', 'none')
-call s:Hl('Constant'  , 'aqua'      , 'background', 'none')
+call s:Hl('Constant'  , 'magenta'   , 'background', 'none')
 call s:Hl('String'    , 'aqua'      , 'background', 'none')
-call s:Hl('Identifier', 'blue'      , 'background', 'none')
+call s:Hl('Identifier', 'purple'    , 'background', 'none')
 call s:Hl('Function'  , 'blue'      , 'background', 'none')
 call s:Hl('Statement' , 'green'     , 'background', 'none')
 call s:Hl('Operator'  , 'green'     , 'background', 'none')
