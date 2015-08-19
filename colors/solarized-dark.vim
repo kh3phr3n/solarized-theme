@@ -30,12 +30,12 @@ let s:colors.yellow     = ['b58900', 136]
 let s:colors.purple     = ['6c71c4',  62]
 let s:colors.magenta    = ['d33682', 168]
 
-let s:colors.line       = ['073642', 235]
-let s:colors.window     = ['586e75', 242]
-let s:colors.comment    = ['586e75', 242]
-let s:colors.selection  = ['073642', 235]
-let s:colors.background = ['002b36', 234]
-let s:colors.foreground = ['839496', 246]
+let s:colors.line       = ['073642', 235] " base02
+let s:colors.window     = ['93a1a1', 247] " base1
+let s:colors.comment    = ['586e75', 242] " base01
+let s:colors.selection  = ['073642', 235] " base02
+let s:colors.background = ['002b36', 234] " base03
+let s:colors.foreground = ['839496', 246] " base0
 
 " Highlighting Function
 " ---------------------
@@ -102,15 +102,15 @@ call s:Hl('IncSearch'   , 'background', 'orange'    , 'none')
 call s:Hl('LineNr'      , 'comment'   , 'background', 'none')
 call s:Hl('CursorLineNr', 'yellow'    , 'background', 'none')
 call s:Hl('MatchParen'  , 'red'       , 'selection' , 'none')
-call s:Hl('ModeMsg'     , 'blue'      , 'background', 'none')
-call s:Hl('MoreMsg'     , 'blue'      , 'background', 'none')
+call s:Hl('ModeMsg'     , 'comment'   , 'background', 'none')
+call s:Hl('MoreMsg'     , 'comment'   , 'background', 'none')
 call s:Hl('NonText'     , 'comment'   , 'background', 'none')
 call s:Hl('Normal'      , 'foreground', 'background', 'none')
 call s:Hl('Pmenu'       , 'foreground', 'selection' , 'none')
 call s:Hl('PmenuSel'    , 'comment'   , 'selection' , 'none')
 call s:Hl('Question'    , 'aqua'      , 'background', 'none')
 call s:Hl('Search'      , 'background', 'yellow'    , 'none')
-call s:Hl('SpecialKey'  , 'foreground', 'selection' , 'none')
+call s:Hl('SpecialKey'  , 'comment'   , 'selection' , 'none')
 call s:Hl('SpellBad'    , 'red'       , 'selection' , 'none')
 call s:Hl('SpellCap'    , 'purple'    , 'selection' , 'none')
 call s:Hl('SpellLocal'  , 'yellow'    , 'selection' , 'none')
