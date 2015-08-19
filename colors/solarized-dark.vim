@@ -80,7 +80,6 @@ call s:Hl('Todo'      , 'magenta'   , 'background', 'none')
 " Vim Highlighting: (see :help highlight-groups)
 " ----------------------------------------------
 
-" Optionals: PmenuSbar
 " Optionals: Conceal, CursorIM
 " Optionals: VisualNOS, WildMenu
 
@@ -108,8 +107,9 @@ call s:Hl('MoreMsg'     , 'comment'   , 'background', 'none')
 call s:Hl('NonText'     , 'comment'   , 'background', 'none')
 call s:Hl('Normal'      , 'foreground', 'background', 'none')
 call s:Hl('Pmenu'       , 'foreground', 'selection' , 'none')
-call s:Hl('PmenuSel'    , 'comment'   , 'selection' , 'none')
-call s:Hl('PmenuThumb'  , 'foreground', 'emphasis'  , 'none')
+call s:Hl('PmenuSel'    , 'selection' , 'comment'   , 'none')
+call s:Hl('PmenuSbar'   , 'selection' , 'selection' , 'none')
+call s:Hl('PmenuThumb'  , 'foreground', 'comment'   , 'none')
 call s:Hl('Question'    , 'aqua'      , 'background', 'none')
 call s:Hl('Search'      , 'background', 'yellow'    , 'none')
 call s:Hl('SpecialKey'  , 'comment'   , 'background', 'none')
