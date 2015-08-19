@@ -80,12 +80,13 @@ call s:Hl('Todo'      , 'magenta'   , 'background', 'none')
 " Vim Highlighting: (see :help highlight-groups)
 " ----------------------------------------------
 
+" Optionals: Conceal, CursorIM
 " Optionals: VisualNOS, WildMenu
 " Optionals: PmenuSbar, PmenuThumb
-" Optionals: Conceal, Cursor, CursorIM
 
 call s:Hl('Title'       , 'aqua'      , ''          , 'none')
 call s:Hl('ColorColumn' , 'foreground', 'line'      , 'none')
+call s:Hl('Cursor'      , 'background', 'comment'   , 'none')
 call s:Hl('CursorColumn', 'foreground', 'line'      , 'none')
 call s:Hl('CursorLine'  , 'green'     , 'background', 'none')
 call s:Hl('Directory'   , 'blue'      , 'background', 'none')
