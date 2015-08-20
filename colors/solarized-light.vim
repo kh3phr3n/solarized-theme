@@ -126,6 +126,13 @@ call s:Hl('Visual'      , 'foreground', 'selection' , 'none')
 call s:Hl('WarningMsg'  , 'red'       , 'background', 'none')
 " call s:Hl('', '', '', 'none')
 
+" Django Highlighting
+" -------------------
+
+call s:Hl('djangoTagBlock' , 'emphasis', 'background', 'none')
+call s:Hl('djangoVarBlock' , 'emphasis', 'background', 'none')
+call s:Hl('djangoStatement', 'blue'    , 'background', 'none')
+
 " HTML Highlighting
 " -----------------
 
