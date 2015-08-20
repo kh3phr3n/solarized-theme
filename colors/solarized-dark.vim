@@ -126,6 +126,15 @@ call s:Hl('Visual'      , 'foreground', 'selection' , 'none')
 call s:Hl('WarningMsg'  , 'red'       , 'background', 'none')
 " call s:Hl('', '', '', 'none')
 
+" HTML Highlighting
+" -----------------
+
+call s:Hl('htmlArg'           , 'blue'   , 'background', 'none')
+call s:Hl('htmlTag'           , 'comment', 'background', 'none')
+call s:Hl('htmlEndTag'        , 'comment', 'background', 'none')
+call s:Hl('htmlTagName'       , 'purple' , 'background', 'none')
+call s:Hl('htmlSpecialTagName', 'purple' , 'background', 'none')
+
 " Local Cleanup
 " -------------
 
