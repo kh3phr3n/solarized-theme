@@ -31,6 +31,8 @@ let s:colors.purple     = ['6c71c4',  62]
 let s:colors.magenta    = ['d33682', 168]
 
 let s:colors.line       = ['eee8d5', 254] " base2
+let s:colors.linenr     = ['c1c5bb', 251] " base1.5
+let s:colors.nontext    = ['d3d3c5', 252] " base1.75
 let s:colors.comment    = ['93a1a1', 247] " base1
 let s:colors.emphasis   = ['586e75', 242] " base01
 let s:colors.selection  = ['eee8d5', 254] " base2
@@ -99,12 +101,12 @@ call s:Hl('Folded'      , 'comment'   , 'background', 'none')
 call s:Hl('FoldColumn'  , 'comment'   , 'background', 'none')
 call s:Hl('SignColumn'  , 'comment'   , 'background', 'none')
 call s:Hl('IncSearch'   , 'background', 'orange'    , 'none')
-call s:Hl('LineNr'      , 'comment'   , 'background', 'none')
+call s:Hl('LineNr'      , 'linenr'    , 'background', 'none')
 call s:Hl('CursorLineNr', 'yellow'    , 'background', 'none')
 call s:Hl('MatchParen'  , 'red'       , 'selection' , 'none')
 call s:Hl('ModeMsg'     , 'comment'   , 'background', 'none')
 call s:Hl('MoreMsg'     , 'comment'   , 'background', 'none')
-call s:Hl('NonText'     , 'comment'   , 'background', 'none')
+call s:Hl('NonText'     , 'nontext'   , 'background', 'none')
 call s:Hl('Normal'      , 'foreground', 'background', 'none')
 call s:Hl('Pmenu'       , 'foreground', 'selection' , 'none')
 call s:Hl('PmenuSel'    , 'selection' , 'comment'   , 'none')
@@ -112,7 +114,7 @@ call s:Hl('PmenuSbar'   , 'selection' , 'selection' , 'none')
 call s:Hl('PmenuThumb'  , 'foreground', 'comment'   , 'none')
 call s:Hl('Question'    , 'aqua'      , 'background', 'none')
 call s:Hl('Search'      , 'background', 'yellow'    , 'none')
-call s:Hl('SpecialKey'  , 'comment'   , 'background', 'none')
+call s:Hl('SpecialKey'  , 'nontext'   , 'background', 'none')
 call s:Hl('SpellBad'    , 'red'       , 'selection' , 'none')
 call s:Hl('SpellCap'    , 'purple'    , 'selection' , 'none')
 call s:Hl('SpellLocal'  , 'yellow'    , 'selection' , 'none')
