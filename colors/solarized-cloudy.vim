@@ -30,13 +30,13 @@ let s:colors.yellow     = ['b58900', 136]
 let s:colors.purple     = ['6c71c4',  62]
 let s:colors.magenta    = ['d33682', 168]
 
-let s:colors.line       = ['eee8d5', 254] " base2
-let s:colors.linenr     = ['c1c5bb', 251] " base1.5
-let s:colors.nontext    = ['d3d3c5', 252] " base1.75
+let s:colors.line       = ['d9d9d9', 253] " base2
+let s:colors.linenr     = ['b6bdbd', 250] " base1.5
+let s:colors.nontext    = ['c4c8c8', 251] " base1.75
 let s:colors.comment    = ['93a1a1', 247] " base1
 let s:colors.emphasis   = ['586e75', 242] " base01
-let s:colors.selection  = ['eee8d5', 254] " base2
-let s:colors.background = ['fdf6e3', 230] " base3
+let s:colors.selection  = ['d9d9d9', 253] " base2
+let s:colors.background = ['e9e9e9', 254] " base3
 let s:colors.foreground = ['657b83',  66] " base00
 
 " Highlighting Function
