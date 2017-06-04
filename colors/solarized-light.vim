@@ -21,23 +21,23 @@ endif
 
 let s:colors = {}
 
-let s:colors.red        = ['dc322f', 166]
-let s:colors.aqua       = ['2aa198',  36]
-let s:colors.blue       = ['268bd2',  32]
+let s:colors.red        = ['DC322F', 166]
+let s:colors.aqua       = ['2AA198',  36]
+let s:colors.blue       = ['268BD2',  32]
 let s:colors.green      = ['859900', 100]
-let s:colors.orange     = ['cb4b16', 166]
-let s:colors.yellow     = ['b58900', 136]
-let s:colors.purple     = ['6c71c4',  62]
-let s:colors.magenta    = ['d33682', 168]
+let s:colors.orange     = ['CB4B16', 166]
+let s:colors.yellow     = ['B58900', 136]
+let s:colors.purple     = ['6C71C4',  62]
+let s:colors.magenta    = ['D33682', 168]
 
-let s:colors.line       = ['eee8d5', 254] " base2
-let s:colors.linenr     = ['c1c5bb', 251] " base1.5
-let s:colors.nontext    = ['d3d3c5', 252] " base1.75
-let s:colors.comment    = ['93a1a1', 247] " base1
-let s:colors.emphasis   = ['586e75', 242] " base01
-let s:colors.selection  = ['eee8d5', 254] " base2
-let s:colors.background = ['fdf6e3', 230] " base3
-let s:colors.foreground = ['657b83',  66] " base00
+let s:colors.line       = ['EEE8D5', 254] " base2
+let s:colors.linenr     = ['C1C5BB', 251] " base1.5
+let s:colors.nontext    = ['D3D3C5', 252] " base1.75
+let s:colors.comment    = ['93A1A1', 247] " base1
+let s:colors.emphasis   = ['586E75', 242] " base01
+let s:colors.selection  = ['EEE8D5', 254] " base2
+let s:colors.background = ['FDF6E3', 230] " base3
+let s:colors.foreground = ['657B83',  66] " base00
 
 " Highlighting Function
 " ---------------------
@@ -82,8 +82,7 @@ call s:Hl('Todo'      , 'magenta'   , 'background', 'none')
 " Vim Highlighting: (see :help highlight-groups)
 " ----------------------------------------------
 
-" Optionals: Conceal, CursorIM
-" Optionals: VisualNOS, WildMenu
+" Optionals: Conceal, CursorIM, VisualNOS
 
 call s:Hl('Title'       , 'aqua'      , ''          , 'none')
 call s:Hl('ColorColumn' , 'foreground', 'line'      , 'none')
@@ -126,6 +125,7 @@ call s:Hl('TabLineFill' , 'comment'   , 'line'      , 'none')
 call s:Hl('TabLineSel'  , 'foreground', 'background', 'none')
 call s:Hl('Visual'      , 'foreground', 'selection' , 'none')
 call s:Hl('WarningMsg'  , 'red'       , 'background', 'none')
+call s:Hl('WildMenu'    , 'line'      , 'foreground', 'none')
 " call s:Hl('', '', '', 'none')
 
 " Django Highlighting
