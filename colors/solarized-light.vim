@@ -1,6 +1,3 @@
-" File: solarized-light.vim
-" Source: https://github.com/kh3phr3n/solarized-theme
-
 " Initialization
 " --------------
 
