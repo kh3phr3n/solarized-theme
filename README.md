@@ -2,7 +2,7 @@
 
 Color palette based on [Solarized](https://github.com/altercation/vim-colors-solarized).
 
-![solarized-theme](https://static.tuxico.com/solarized-theme/preview.png)
+![solarized-theme](https://cdn.nixsys.fr/static/github/solarized-theme/preview.png)
 
 ## Installation
 
